@@ -2,11 +2,11 @@
 import json
 import os
 from crewai import Agent, Task, Crew, Process
-from trend_fetcher_enhanced import get_all_trends_enhanced
-from script_genarator import generate_script, generate_captions
-from voiceover import generate_voiceover
-from thumbnail import generate_thumbnail
-from virality_enhanced import predict_virality_enhanced
+from project.trend_fetcher_enhanced import get_all_trends_enhanced
+from project.script_genarator import generate_script, generate_captions
+from project.voiceover import generate_voiceover
+from project.thumbnail import generate_thumbnail
+from project.virality_enhanced import predict_virality_enhanced
 
 # Define CrewAI agents (each has a specific role)
 trend_agent = Agent(
