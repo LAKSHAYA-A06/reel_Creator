@@ -1,7 +1,7 @@
 # script_genarator.py
 
 from groq import Groq
-from config import GROQ_API_KEY
+from project.config import GROQ_API_KEY
 from textblob import TextBlob
 
 # ─────────────────────────────────────────
