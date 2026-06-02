@@ -1,7 +1,7 @@
 # role_b_agent.py — Enhanced Viral Reel Agent (with multi-source trends)
-from trend_fetcher_enhanced import get_all_trends_enhanced
-from script_genarator import generate_script, generate_captions
-from virality_enhanced import predict_virality_enhanced
+from project.trend_fetcher_enhanced import get_all_trends_enhanced
+from project.script_genarator import generate_script, generate_captions
+from project.virality_enhanced import predict_virality_enhanced
 import json
 import os
 
