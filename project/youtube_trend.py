@@ -1,7 +1,7 @@
 # youtube_trend.py
 
 from googleapiclient.discovery import build
-from config import YOUTUBE_API_KEY
+from project.config import YOUTUBE_API_KEY
 
 # ─────────────────────────────────────────
 # STEP 1: Categories
