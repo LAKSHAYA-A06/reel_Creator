@@ -1,7 +1,7 @@
 # trend_fetcher_enhanced.py
 import requests
 from datetime import datetime, timezone
-from config import YOUTUBE_API_KEY, NEWS_API_KEY
+from project.config import YOUTUBE_API_KEY, NEWS_API_KEY
 from project.youtube_trend import get_trends_by_category
 
 def fetch_youtube_trends_enhanced(category_ids=["28","22","26"], max_per_category=3):
