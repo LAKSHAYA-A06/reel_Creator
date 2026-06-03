@@ -6,3 +6,4 @@ textblob
 gtts
 requests
 crewai
+tiktoken==0.9.0
